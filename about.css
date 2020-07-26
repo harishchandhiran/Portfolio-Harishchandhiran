@@ -1,0 +1,22 @@
+h1 {
+    color: navy;
+    font-style: oblique;
+}
+
+p {
+    color: navy;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 100px;
+}
+
+a {
+    font-weight: bold;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+body {
+    background-color: rgb(136, 226, 236);
+}

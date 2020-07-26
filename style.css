@@ -1,0 +1,55 @@
+h1 {
+    color: black;
+    margin: 100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-style: oblique;
+}
+
+p {
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: right;
+}
+
+a {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: oblique;
+    color: black;
+}
+
+/*.header {
+    background-image: image("Images/background.jpg");
+    display: flex;
+    justify-content: space-between;
+}*/
+
+body {
+    background-image: url("Images/background.jpg");
+}    
+
+.menu a {
+    margin: 50px;
+}
+
+
+
+
+
+/*
+p,h2 {
+    color: navy;
+    text-align: center;
+    text-decoration: underline double navy;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: unset;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}*/

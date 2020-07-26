@@ -1,0 +1,62 @@
+h1 {
+    color: navy;
+    margin: 30px;
+    font-style: oblique;
+}
+
+a {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-top: 50px;
+}
+
+p,h2 {
+    color: navy;
+    text-align: center;
+    text-decoration: underline double navy;
+    font-weight: bolder;
+    font-style: oblique;
+    text-transform: unset;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: solid navy 30px;
+}
+
+.menu a {
+    margin: 50px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    position: relative;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.33;
+}
+
+body {
+    background-color: rgb(45, 200, 227);
+}
